@@ -1,0 +1,22 @@
+---
+name: Net-XMPP:Simple
+version: 1.0
+author: []
+abstract: a bare bones wrapper for sending messages using Net::XMPP
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Net::XMPP: 0
+build_requires:
+  Test::Simple: '>= 0.47'
+provides:
+  Net::XMPP::Simple:
+    file: lib/Net/XMPP/Simple.pm
+    version: 1.0
+  Net::XMPP::Simple::GTalk:
+    file: lib/Net/XMPP/Simple/GTalk.pm
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

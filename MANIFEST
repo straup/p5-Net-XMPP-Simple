@@ -1,0 +1,10 @@
+# $Id: MANIFEST,v 1.2 2009/04/28 02:27:23 asc Exp $
+Build.PL
+lib/Net/XMPP/Simple.pm
+lib/Net/XMPP/Simple/GTalk.pm
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+META.yml
+README
+t/00-load.t
